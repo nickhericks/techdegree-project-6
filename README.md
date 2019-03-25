@@ -3,6 +3,7 @@
 ### Portfolio site (built with Node.js, Express and Pug)
 
 A static portfolio site with a modern landing page, an about page, and several project pages.
+
 ---
 
 <!-- <img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1553282635/portfolio/publicApiRequest.png" width="899px"> -->
