@@ -2,7 +2,7 @@
 
 ### Portfolio site (built with Node.js, Express and Pug)
 
-A static portfolio site with a modern landing page, an about page, and several project pages.
+A static portfolio site with a modern landing page, about page, and several project pages.
 
 ---
 
