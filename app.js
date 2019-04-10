@@ -3,6 +3,10 @@ const express = require('express');
 const app = express();
 app.set('view engine', 'pug');
 
+const projects = require('./data.json').projects;
+console.log(projects[0].id);
+
+
 
 app.get('/', (req, res) => {
 	res.render('index');
