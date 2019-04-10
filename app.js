@@ -1,19 +1,23 @@
 const express = require('express');
+const data = require('./data.json');
+// console.log(projects[0].id);
+
 
 const app = express();
 app.set('view engine', 'pug');
+app.use('/static', express.static('public'));
 
-const projects = require('./data.json').projects;
-console.log(projects[0].id);
+
 
 
 
 app.get('/', (req, res) => {
-	res.render('index');
+	// res.locals.name
+	res.render('index', data.projects );
 });
 
-app.get('/hello', (req, res) => {
-	res.send(`<h1>/hello</h1>`);
+app.get('/about', (req, res) => {
+	res.render('about', data.projects);
 });
 
 
