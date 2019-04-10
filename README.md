@@ -9,6 +9,10 @@ A static portfolio site with a modern landing page, about page, and several proj
 <!-- <img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1553282635/portfolio/publicApiRequest.png" width="899px"> -->
 
 ## View project
+1. Download this repo.
+2. Navigate to the project directory in the command line/terminal.
+3. Run 'npm install' (or view the required dependencies listed in the package.json file and install each manually).
+3. Run 'npm start' to view the project in your browser at:  localhost:9000
 
 :mag: Live version available at [nickhericks.github.io/techdegree-project-6/](https://nickhericks.github.io/techdegree-project-6/)
 
