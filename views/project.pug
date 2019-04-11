@@ -8,11 +8,11 @@ block content
       .cell.small-6.medium-9.large-9
 
         //- Use interpolation to dynamically add the project title.
-        h1 Title
+        h1= project_name
 
         //- Use interpolation to dynamically add the project description.
         p.lead.text-light
-          | Description
+          | #{description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
@@ -24,8 +24,8 @@ block content
           li JavaScript
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href='') Live Demo
-        a.button.expanded(href='') GitHub Repo
+        a.button.expanded(href=`` target='_blank') Live Demo
+        a.button.expanded(href=`${github_link}` target='_blank') GitHub Repo
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
     img.image(src='https://placehold.it/1200x550')

@@ -8,7 +8,7 @@ console.log('hi from about route');
 
 
 router.get('/', (req, res) => {
-	res.render('about', data.projects);
+	res.render('about', data );
 });
 
 
