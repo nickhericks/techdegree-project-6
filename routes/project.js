@@ -15,7 +15,7 @@ router.get('/:id', (req, res) => {
 	console.log(id);
 
 	const project = data.projects[id];
-	console.log(project);
+	// console.log(project);
 
 
 	const templateData = { id };
