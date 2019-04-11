@@ -20,19 +20,21 @@ app.use('/project', projectRoutes);
 
 
 
-// app.get('/', (req, res) => {
-// 	res.render('index', data.projects );
-// });
+// This middleware runs if no routes above match what was requested.
+// Meaning it grabs all 404 errors and passes them to
+app.use((req, res, next) => {
+	const err = new Error('Not found');
+	err.status = 404;
+	next(err);
+});
 
-
-// app.get('/about', (req, res) => {
-// 	res.render('about', data.projects);
-// });
-
-
-// app.get('/:id', (req, res) => {
-// 	res.render('project', data.projects);
-// });
+// Error Handling Middleware (4 parameters)
+// Runs if an object gets passed into a next() call
+app.use((err, req, res, next) => {
+	res.locals.error = err;
+	res.status(err.status);
+	res.render('error');
+});
 
 
 
