@@ -10,15 +10,11 @@ console.log('hi from project route');
 
 
 router.get('/:id', (req, res) => {
-
+	// Access id from the route parameter and assign it a variable
 	const id = req.params.id;
-	console.log(id);
 
-	const project = data.projects[id];
-	// console.log(project);
-
-
-	const templateData = { id };
+	// Use id as index to get specific project data and assign to variable
+	const project = projects[id];
 
 	res.render('project', project );
 });
