@@ -4,7 +4,7 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      h1 Portfolio
+      h1= title
 
       p.lead.text-light
         | This portfolio was built using Express.js and the Pug template engine as a way to share a few JavaScript projects that I've been working on through Treehouse's Full Stack Developer Techdegree program.
@@ -15,16 +15,8 @@ block content
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-		  
-
-      //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
-      
-      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
-      
-      //- Here's what the Pug for each project example should look like. 
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='https://placehold.it/550x550')
-          h5 Title
-      
+      each project in projects
+        .cell
+          a(href=`project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`)
+            h5= project.project_name

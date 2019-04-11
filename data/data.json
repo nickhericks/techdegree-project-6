@@ -1,4 +1,5 @@
 {
+	"title": "Portfolio",
 	"projects": [
 		{
 			"id": 100,
@@ -12,10 +13,10 @@
 			"live_link": "https://nickhericks.github.io/techdegree-project-1/",
 			"github_link": "https://github.com/nickhericks/techdegree-project-1",
 			"image_urls": [
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG"
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG"
 			]
 		},
 		{
@@ -30,10 +31,10 @@
 			"live_link": "https://nickhericks.github.io/techdegree-project-2/",
 			"github_link": "https://github.com/nickhericks/techdegree-project-2",
 			"image_urls": [
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG"
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG"
 			]
 		},
 		{
@@ -48,10 +49,10 @@
 			"live_link": "https://nickhericks.github.io/techdegree-project-3/",
 			"github_link": "https://github.com/nickhericks/techdegree-project-3",
 			"image_urls": [
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG"
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG"
 			]
 		},
 		{
@@ -67,10 +68,10 @@
 			"live_link": "https://nickhericks.github.io/techdegree-project-4/",
 			"github_link": "https://github.com/nickhericks/techdegree-project-4",
 			"image_urls": [
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG"
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG"
 			]
 		},
 		{
@@ -86,10 +87,10 @@
 			"live_link": "https://nickhericks.github.io/techdegree-project-5/",
 			"github_link": "https://github.com/nickhericks/techdegree-project-5",
 			"image_urls": [
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG",
-				"../public/img/nick550px.JPG"
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG",
+				"../static/img/nick550px.JPG"
 			]
 		}
 	]
