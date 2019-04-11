@@ -17,11 +17,10 @@ block content
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
+        //- Iterate through technologies used in project
         ul
-          li HTML
-          li CSS
-          li JavaScript
+          each technology in technologies
+            li= technology
 
         //- Link to live demo and GitHub repo
         a.button.expanded(href=`${live_link}` target='_blank') Live Demo
