@@ -15,6 +15,7 @@ router.get('/:id', (req, res) => {
 
 	// Use id as index to get specific project data and assign to variable
 	const project = projects[id];
+	
 
 	res.render('project', project );
 });
@@ -23,5 +24,5 @@ router.get('/:id', (req, res) => {
 
 
 
-
+// Export 'router' so it can be accessed by app.js
 module.exports = router;

@@ -8,11 +8,12 @@ console.log('hi from index route');
 
 
 router.get('/', (req, res) => {
-	res.render('index', data );
+	res.locals.projects = data.projects;
+	res.render('index');
 });
 
 
 
 
-
+// Export 'router' so it can be accessed by app.js
 module.exports = router;
