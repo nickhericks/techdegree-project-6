@@ -65,7 +65,7 @@ a:hover {
 }
 
 .shadow {
-	box-shadow: 4px 0px 20px 0 rgba(0,0,0,0.75) !important;
+	box-shadow: 4px 0px 10px 0 rgba(0,0,0,0.75) !important;
   overflow: hidden;
 }
 
@@ -161,7 +161,8 @@ a:hover {
 }
 
 .portfolio-bio {
-  line-height: 25px;
+	line-height: 25px;
+	margin-right: 2rem;
 }
 
 .error {
