@@ -7,10 +7,8 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Project title.
         h1= project_name
 
-        //- Project description.
         p.lead.text-light
           | #{description}
 
@@ -22,7 +20,6 @@ block content
           each technology in technologies
             li= technology
 
-        //- Link to live demo and GitHub repo
         a.button.expanded(href=`${live_link}` target='_blank') Live Demo
         a.button.expanded(href=`${github_link}` target='_blank') GitHub Repo
     

@@ -1,15 +1,17 @@
 const express = require('express');
 const data = require('./data/data.json');
-// console.log(projects[0].id);
 
-
+// Create express application and assign it to variable
 const app = express();
+
+// Serve static files located in public folder
 app.use('/static', express.static('public'));
 
+// Set view engine to Pug
 app.set('view engine', 'pug');
 
 
-// Import code from index.js file in the 'routes' folder
+// Import code from files in the 'routes' folder
 const mainRoutes = require('./routes');
 const aboutRoutes = require('./routes/about');
 const projectRoutes = require('./routes/project');
@@ -19,12 +21,14 @@ app.use('/project', projectRoutes);
 
 
 // This middleware runs if no routes above match what was requested.
-// Meaning it grabs all 404 errors and passes them to
+// Meaning it grabs all 404 errors and passes them to the 
+// error handling middleware below
 app.use((req, res, next) => {
 	const err = new Error('Page not found');
 	err.status = 404;
 	next(err);
 });
+
 
 // Error Handling Middleware (4 parameters)
 // Runs if an object gets passed into a next() call
