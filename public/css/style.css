@@ -3,7 +3,11 @@ body {
 	font-family: 'Roboto Mono', monospace;
 }
 
-h5 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+h4 {
 	letter-spacing: 2.5px;
 	-webkit-text-transform: uppercase;
 	text-transform: uppercase;
@@ -57,20 +61,20 @@ a:hover {
 
 .portfolio-me {
   padding: 20px;
-  background: hsl(167, 82%, 43%);
+	background: #1779ba;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p {
-    font-size: 14px;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
   }
 
   .portfolio-me a {
     font-weight: 600;
-    color: #555;
-    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
