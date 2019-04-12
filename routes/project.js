@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
 const data = require('../data/data.json');
 const { projects } = data;
@@ -6,7 +6,7 @@ const { projects } = data;
 
 // When a GET request is made without an id after /project
 router.get('/', (req, res) => {
-	res.redirect(`/`);
+	res.redirect('/');
 });
 
 

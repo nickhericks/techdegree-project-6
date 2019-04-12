@@ -1,5 +1,4 @@
 const express = require('express');
-const data = require('./data/data.json');
 
 // Create express application and assign it to variable
 const app = express();
@@ -41,5 +40,5 @@ app.use((err, req, res, next) => {
 
 // Start server and listen on port 3000
 app.listen(3000, () => {
-	console.log(`The application is running on localhost:3000`);
+	console.log('The application is running on localhost:3000');
 });
