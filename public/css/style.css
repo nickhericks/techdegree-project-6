@@ -112,13 +112,17 @@ a:hover {
   padding-bottom: 40px;
 }
 
+.profile-pic {
+	border-radius: 50%;
+}
+
 .portfolio-index {
   margin: 0;
   padding: 10px 50px;
 }
 
   .portfolio-index .thumbnail {
-    margin-bottom: 5px;
+		margin-bottom: 5px;
   }
 
   .portfolio-index a {
@@ -126,11 +130,11 @@ a:hover {
   }
 
   .portfolio-index .cell {
-    margin-bottom: 15px;
+		margin-bottom: 15px;
   }
 
     .portfolio-index .cell h5 {
-      letter-spacing: 1px;
+			letter-spacing: 1px;
     }
 
 .portfolio-meta {
