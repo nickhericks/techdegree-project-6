@@ -13,6 +13,16 @@ router.get('/:id', (req, res) => {
 	// Access id from the route parameter and assign it a variable
 	const id = req.params.id;
 
+	// Create array of all project ids
+	const allIds = projects.map(function(project) {
+		return project.id;
+	});
+	console.log(allIds);
+
+	
+
+
+
 	// Use id as index to get specific project data and assign to variable
 	const project = projects[id];
 	
