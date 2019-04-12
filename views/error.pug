@@ -3,4 +3,6 @@ extends layout
 block content
 	section.error
 		h1= `${error.message} - Status: ${error.status}`
-		a.button.expanded.error-btn(href='/') Return to home page
+		a.button.expanded(href='/') Return to home page
+		div
+			pre.stack-trace= error.stack
