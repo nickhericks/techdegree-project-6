@@ -146,5 +146,14 @@ a:hover{
 }
 
 .portfolio-bio{
-    line-height: 25px;
+  line-height: 25px;
+}
+
+.error {
+	max-width: 700px;
+	margin: 2rem;
+}
+
+.error-btn {
+	max-width: 200px;
 }
