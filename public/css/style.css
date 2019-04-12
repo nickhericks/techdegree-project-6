@@ -21,8 +21,8 @@ h6 {
 }
 
 p {
-	font-size: 15px;
-color: rgb(59, 59, 59);
+	font-size: 1rem;
+	color: rgb(59, 59, 59);
 }
 
 .round {
@@ -38,7 +38,8 @@ color: rgb(59, 59, 59);
 	}
 
 .button {
-  background-color: #333;
+	background-color: #333;
+	font-size: 1.1rem;
 }
 
 .button:hover {
@@ -101,7 +102,7 @@ a:hover {
 
  .portfolio-breadcrumb a {
    font-weight: 600;
-   font-size: 13px;
+   font-size: 1rem;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
@@ -155,7 +156,7 @@ a:hover {
 }
 
 .portfolio-project li {
-  font-size: 13px;
+  font-size: 1rem;
   color: #444;
 }
 

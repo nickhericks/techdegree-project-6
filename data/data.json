@@ -2,38 +2,39 @@
 	"projects": [
 		{
 			"id": 0,
-			"project_name": "Random Quote Generator",
-			"description": "This project displays a random quote to the page when the user clicks the button.",
+			"project_name": "Public API Requests",
+			"description": "This project uses JavaScript to create an employee directory by communicating with a third-party API - Random User Generator API.",
 			"technologies": [
-				"HTML",
-				"CSS",
-				"JavaScript"
+				"AJAX (Fetch API)",
+				"Third-party API",
+				"JSON objects"
 			],
-			"live_link": "https://nickhericks.github.io/techdegree-project-1/",
-			"github_link": "https://github.com/nickhericks/techdegree-project-1",
+			"live_link": "https://nickhericks.github.io/techdegree-project-5/",
+			"github_link": "https://github.com/nickhericks/techdegree-project-5",
 			"image_urls": [
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG"
+				"../static/img/api550.png",
+				"../static/img/api1.png",
+				"../static/img/api2.png",
+				"../static/img/api3.png"
 			]
 		},
 		{
 			"id": 1,
-			"project_name": "List Pagination and Filtering",
-			"description": "This project utilizes a progressive enhancement approach to add pagination and search filtering features to a student list page.",
+			"project_name": "OOP Game Show App",
+			"description": "This project uses Object-Oriented JavaScript to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
 			"technologies": [
-				"HTML",
-				"CSS",
-				"JavaScript"
+				"Object-Oriented Programming",
+				"JavaScript Classes",
+				"Array iteration methods",
+				"CSS variables"
 			],
-			"live_link": "https://nickhericks.github.io/techdegree-project-2/",
-			"github_link": "https://github.com/nickhericks/techdegree-project-2",
+			"live_link": "https://nickhericks.github.io/techdegree-project-4/",
+			"github_link": "https://github.com/nickhericks/techdegree-project-4",
 			"image_urls": [
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG"
+				"../static/img/phrase550.png",
+				"../static/img/phrase1.png",
+				"../static/img/phrase2.png",
+				"../static/img/phrase3.png"
 			]
 		},
 		{
@@ -48,48 +49,46 @@
 			"live_link": "https://nickhericks.github.io/techdegree-project-3/",
 			"github_link": "https://github.com/nickhericks/techdegree-project-3",
 			"image_urls": [
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG"
+				"../static/img/form550.png",
+				"../static/img/form1.png",
+				"../static/img/form2.png",
+				"../static/img/form3.png"
 			]
 		},
 		{
 			"id": 3,
-			"project_name": "OOP Game Show App",
-			"description": "This project uses Object-Oriented JavaScript to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+			"project_name": "List Pagination and Filtering",
+			"description": "This project utilizes a progressive enhancement approach to add pagination and search filtering features to a student list page.",
 			"technologies": [
-				"Object-Oriented Programming",
-				"JavaScript Classes",
-				"Array iteration methods",
-				"CSS variables"
+				"JavaScript",
+				"HTML",
+				"CSS"
 			],
-			"live_link": "https://nickhericks.github.io/techdegree-project-4/",
-			"github_link": "https://github.com/nickhericks/techdegree-project-4",
+			"live_link": "https://nickhericks.github.io/techdegree-project-2/",
+			"github_link": "https://github.com/nickhericks/techdegree-project-2",
 			"image_urls": [
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG"
+				"../static/img/list550.png",
+				"../static/img/list1.png",
+				"../static/img/list2.png",
+				"../static/img/list3.png"
 			]
 		},
 		{
 			"id": 4,
-			"project_name": "Public API Requests",
-			"description": "This project uses JavaScript to create an employee directory by communicating with a third-party API - Random User Generator API.",
+			"project_name": "Random Quote Generator",
+			"description": "This project displays a random quote to the page when the user clicks the button.",
 			"technologies": [
-				"AJAX (Fetch request)",
-				"Third-party API",
-				"JSON objects",
-				"Array iteration methods"
+				"JavaScript",
+				"HTML",
+				"CSS"
 			],
-			"live_link": "https://nickhericks.github.io/techdegree-project-5/",
-			"github_link": "https://github.com/nickhericks/techdegree-project-5",
+			"live_link": "https://nickhericks.github.io/techdegree-project-1/",
+			"github_link": "https://github.com/nickhericks/techdegree-project-1",
 			"image_urls": [
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG",
-				"../static/img/nick550px.JPG"
+				"../static/img/quote550.png",
+				"../static/img/quote1.png",
+				"../static/img/quote2.png",
+				"../static/img/quote3.png"
 			]
 		}
 	]
