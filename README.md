@@ -6,7 +6,7 @@ A static portfolio site with a modern landing page, about page, and several proj
 
 ---
 
-<!-- <img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1553282635/portfolio/publicApiRequest.png" width="899px"> -->
+<img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1555084799/portfolio/expressPortfolio.png" width="899px">
 
 ## View project
 1. Download this repo.
@@ -24,29 +24,52 @@ Node.js and Express are used to import the required dependencies, link the JSON 
 
 ## Techniques and concepts
 
-<!-- - AJAX (Fetch request)
-- Third-party API
-- JSON objects
-- Array iteration methods -->
+- Node.js
+- npm
+- express.js
+- pug template engine
+- middleware
+- error handling
 
 ## Additional features
 
-<!-- In addition to completing the basic requirements for this techdegree project, I also added additional features including:
+In addition to completing the basic requirements for this techdegree project, I also added additional features including:
 
-- [x] Added live search filtering for employee cards on the page
-- [x] Added 'Prev' and 'Next' buttons for navigating cards within modal
-- [x] Personalized CSS styling (colors, fonts, etc.) -->
+- [x] Updating package.json file to allow running 'npm start' to run the app
+- [x] Create custom error message Pug template
+- [x] Updating CSS stylings (background, font, colors, box shadows, etc.)
 
 ## Code example
 
-<!-- This lesson was all about AJAX, so it seems fitting to show the fetch request used:
+This lesson was all about AJAX, so it seems fitting to show the fetch request used:
 
 ```javascript
-// Request data for 12 random users from the Random User Generator API
-fetch('https://randomuser.me/api/?results=12&nat=us')
-	.then(response => response.json())
-	.then(data => displayEmployees(data.results));
-``` -->
+// When a GET request is made that includes an id after /project
+router.get('/:id', (req, res) => {
+	// Access id from the route parameter and assign it a variable
+	const id = req.params.id;
+
+	// Create array of all project ids
+	const allIds = projects.map( project => project.id);
+
+	// Get index of id in allIds, otherwise return -1
+	const index = allIds.indexOf(parseInt(id));
+
+	// If index equals -1, project id does not exist
+	if(index === -1) {
+		// Redirect user to home page
+		res.redirect('/');
+	}
+	// When index does not equal -1, project id does exist
+	else {
+		// Use id as index to get specific project data and assign to variable
+		const project = projects[index];
+
+		// Render project.pug template passing 'project' object as data
+		res.render('project', project);
+	}
+});
+```
 
 ## Acknowledgements
 
