@@ -63,11 +63,16 @@ a:hover {
   line-height: 0;
 }
 
+.shadow {
+	box-shadow: 4px 0px 20px 0 rgba(0,0,0,0.75) !important;
+  overflow: hidden;
+}
+
 .portfolio-me {
   padding: 20px;
 	background: #1779ba;
   color: #fff;
-  box-shadow: none !important;
+  /* box-shadow: none !important; */
 }
 
   .portfolio-me p {
